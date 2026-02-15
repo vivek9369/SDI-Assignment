@@ -5,7 +5,7 @@ Complete full-stack email scheduler service with persistent job queue, rate limi
 ## 🎯 Overview
 
 This is a production-grade email scheduler built for ReachInbox that demonstrates:
-
+ 
 - **Event-driven architecture** using BullMQ + Redis (no cron jobs)
 - **Persistent scheduling** - survives server restarts
 - **Rate limiting** - per-sender hourly limits with configurable concurrency
